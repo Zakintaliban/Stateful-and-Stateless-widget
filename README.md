@@ -17,6 +17,9 @@ samples, guidance on mobile development, and a full API reference.
 
 ### how to make stateless and statefull widget?
 
+before we make it, we need to know, what is stateless widget and stateful widget?<br/>
+...The important thing to note here is at the core both Stateless and Stateful widgets behave the same. They rebuild every frame, the difference is the StatefulWidget has a State object which stores state data across frames and restores it.<br/>
+If you are in doubt, then always remember this rule: If a widget changes (the user interacts with it, for example) it’s stateful. However, if a child is reacting to change, the containing parent can still be a Stateless widget if the parent doesn’t react to change<br/>
 if you using VScode press ctrl+shift+p and type `flutter: new project` <br/>
 open the folder `lib` and erase from `home` to end of the line <br/>
 oh and don't forget for the extension, here's the extension <br/>
