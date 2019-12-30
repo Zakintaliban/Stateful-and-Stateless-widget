@@ -34,6 +34,7 @@ class PageStateless extends StatelessWidget {
             color: Colors.blueAccent,
             child: new Container(
               color: Colors.lightGreen,
+              margin: const EdgeInsets.all(50.0),
             )));
   }
 }
